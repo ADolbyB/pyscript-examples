@@ -10,7 +10,7 @@
 
 </div>
 
-This repo is a compilation of tutorials and examples using [`PyScript`](https://pyscript.github.io/docs/2024.1.1/) which embeds python into HTML.
+This repo is a compilation of tutorials and examples using [`PyScript`](https://pyscript.github.io/docs/2024.1.1/) which embeds python into HTML. PyScript is a 'micro front-end', similar to Angular or React.
 
 I created this repo for project research on Python Web Apps.
 
@@ -34,6 +34,26 @@ Optional but highly recommended:
     - Packages in the base environment are obtained from the conda-forge channel.
     - The conda-forge channel is set as the default (and only) channel."
         - [source](https://github.com/conda-forge/miniforge)
+
+## Some Background Information:
+
+- Note that with PyScript, the `<py-script>` tag that is used to run python code. This is the 'main' tag used.
+    - `<py-script>` is used to display results (output, pyscrit.write), DOM Manipulation, and other python based operations (like batch, webservices).
+    - `<py-script>` is used in two ways: Python code written in HTML in the same page, or using `src` attributes in the tag (externalization of python code).
+- The `<py-env>` tag is used to import Python Libraries into the DOM.
+- The `<py-repl>` tag is used to add a python console to the DOM.
+
+## Sources:
+
+Documentation (start here):
+- [PyScript Docs](https://pyscript.github.io/docs/) Home Page.
+    - [Example Applications](https://pyscript.com/@examples) that are open source with live demos.
+    - [Alternative Link to Example Applications](https://pyscript.github.io/docs/2024.1.1/user-guide/examples/) that are open source with live demos.
+    - [2024.1.1 User Guide](https://pyscript.github.io/docs/2024.1.1/user-guide/)
+
+YouTube Tutorials:
+- [PyScript: The Complete Guide](https://www.youtube.com/watch?v=kcbJiQLhRtM) by Run Nano, 2:03:00 duration.
+    - Covers the following: DOM Manipulation, CRUD Operations, Event Management, Custom Components, and Data Science Applications.
 
 ## Status:
 
