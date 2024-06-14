@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/PyScript-Graphic.png" alt="PyScript" width="500"/>
+<img src="./assets/PyScript-Graphic.png" alt="PyScript" width="500"/><br>
 
 <small>
     <a href="https://www.datanami.com/wp-content/uploads/2022/05/Anaconda-PyScript-Graphic.png">Image Source</a>
