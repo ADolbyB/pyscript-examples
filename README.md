@@ -2,13 +2,13 @@
 
 <div align="center">
 
-<img src="./assets/PyScript-Graphic.png" alt="PyScript" width="500"/><br>
+<img src="./assets/PyScript-Graphic.png" alt="PyScript" width="500"/>
 
 <small>
     <a href="https://www.datanami.com/wp-content/uploads/2022/05/Anaconda-PyScript-Graphic.png">Image Source</a>
 </small>
 
-</div>
+</div><br>
 
 This repo is a compilation of tutorials and examples using [`PyScript`](https://pyscript.github.io/docs/2024.1.1/) which embeds python into HTML. PyScript is a 'micro front-end', similar to Angular or React.
 
@@ -41,19 +41,24 @@ Optional but highly recommended:
     - `<py-script>` is used to display results (output, pyscrit.write), DOM Manipulation, and other python based operations (like batch, webservices).
     - `<py-script>` is used in two ways: Python code written in HTML in the same page, or using `src` attributes in the tag (externalization of python code).
 - The `<py-env>` tag is used to import Python Libraries into the DOM.
-- The `<py-repl>` tag is used to add a python console to the DOM.
+- The `<py-repl>` tag is used to add a python terminal to the DOM.
 
 ## Sources:
 
+- [PyScript GitHub](https://github.com/pyscript/pyscript) Page.
+
 Documentation (start here):
-- [PyScript Docs](https://pyscript.github.io/docs/) Home Page.
+- [PyScript Docs](https://pyscript.github.io/docs/) Home Page. Bookmarks Below:
+    - [PyScript 2024.1.1 User Guide](https://pyscript.github.io/docs/2024.1.1/user-guide/)
     - [Example Applications](https://pyscript.com/@examples) that are open source with live demos.
     - [Alternative Link to Example Applications](https://pyscript.github.io/docs/2024.1.1/user-guide/examples/) that are open source with live demos.
-    - [2024.1.1 User Guide](https://pyscript.github.io/docs/2024.1.1/user-guide/)
 
-YouTube Tutorials:
+Video Tutorials:
 - [PyScript: The Complete Guide](https://www.youtube.com/watch?v=kcbJiQLhRtM) by Run Nano, 2:03:00 duration.
     - Covers the following: DOM Manipulation, CRUD Operations, Event Management, Custom Components, and Data Science Applications.
+
+Tutorial Articles:
+- [Intro to PyScript](https://blog.logrocket.com/pyscript-run-python-browser/)
 
 ## Status:
 
